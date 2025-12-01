@@ -313,10 +313,6 @@ const Hero = () => {
                   src="/src/assets/img/planetEbook.png"
                   alt="Planeta eBook"
                   className="w-full h-auto drop-shadow-2xl"
-                  onError={(e) => {
-                    // Fallback si no encuentra la imagen
-                    e.target.src = "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&q=80";
-                  }}
                 />
                 
                 {/* Anillos decorativos alrededor */}
