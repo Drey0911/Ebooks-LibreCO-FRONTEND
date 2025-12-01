@@ -310,7 +310,7 @@ const Hero = () => {
               {/* Planeta con animación */}
               <div className="relative animate-float">
                 <img 
-                  src="/src/assets/img/planetEbook.png"
+                  src="/assets/img/planetEbook.png"
                   alt="Planeta eBook"
                   className="w-full h-auto drop-shadow-2xl"
                 />
