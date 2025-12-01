@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://api-libreco.onrender.com/api'; // Espacio para la API URL + /api
 
 export const api = {
   async request(endpoint, options = {}) {
